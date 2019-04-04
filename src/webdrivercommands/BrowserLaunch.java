@@ -16,7 +16,6 @@ public class BrowserLaunch {
 			
 			
 		
-			driver.get("http://192.168.43.240:8080/docs/api/overview-summary.html");
 			System.out.println(driver.getCurrentUrl());
 			System.out.println(driver.getTitle());
 			System.out.println(driver.getTitle().length());
