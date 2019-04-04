@@ -16,6 +16,7 @@ public class BrowserLaunch {
 			
 			
 		
+			driver.get("http://www.facebook.com");
 			System.out.println(driver.getCurrentUrl());
 			System.out.println(driver.getTitle());
 			System.out.println(driver.getTitle().length());
