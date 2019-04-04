@@ -12,7 +12,7 @@ public class BrowserCommands {
 		/*System.setProperty("webdriver.chrome.driver", "F:\\Selenium\\chromedriver\\chromedriver.exe");*/
 		WebDriver chdriver = new ChromeDriver();
 		
-		chdriver.get("http://www.ecstracking.com/");
+		chdriver.get("http://www.google.com/");
 		System.out.println(chdriver.getCurrentUrl());
 		System.out.println(chdriver.getTitle());
 		System.out.println(chdriver.getTitle().length());
